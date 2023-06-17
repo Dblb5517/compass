@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/compass/static/css/main.54307f25.css",
+    "main.js": "/compass/static/js/main.9f774292.js",
+    "static/js/787.e263e4fb.chunk.js": "/compass/static/js/787.e263e4fb.chunk.js",
+    "static/media/Hotpot.png": "/compass/static/media/Hotpot.883662f3bb34f1cb2be9.png",
+    "index.html": "/compass/index.html",
+    "main.54307f25.css.map": "/compass/static/css/main.54307f25.css.map",
+    "main.9f774292.js.map": "/compass/static/js/main.9f774292.js.map",
+    "787.e263e4fb.chunk.js.map": "/compass/static/js/787.e263e4fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54307f25.css",
+    "static/js/main.9f774292.js"
+  ]
+}
