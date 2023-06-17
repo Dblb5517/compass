@@ -140,6 +140,33 @@ const data = [
             },
         ]
     },
+    {
+        url: 'AP Biology',
+        title: 'APB',
+        subtitle1:'AP Biology',
+        paragraph1:'Study the core scientific principles, theories, and processes that govern living organisms and biological systems. You’ll do hands-on laboratory work to investigate natural phenomena.',
+        subtitle2:'Tips for studying',
+        list1: [
+            'Familiarize yourself with the format of the exam.',
+            'Get your vocabulary down first!',
+            "Make flashcards and study sheets with diagrams.",
+            'Dont lose track of the big picture when studying AP® Biology.',
+            'Know the 4 Big Ideas.'
+        ],
+        subtitle3:{
+            title: "To visit the AP Biology exam page on the College Board's website, click on this link:",
+            link: "https://apstudents.collegeboard.org/courses/ap-biology",
+            linkTitle: "AP Biology exam page"
+        },
+        list2:[
+            {
+                title: "Overview of the AP Biology exam:",
+                desc: "The AP® Biology exam is a 3-hour exam. Students will have 90 minutes to complete 60 multiple-choice questions and another 90 minutes to complete 6 free-response questions.",
+                link: "The AP® Biology exam is a 3-hour exam. Students will have 90 minutes to complete 60 multiple-choice questions and another 90 minutes to complete 6 free-response questions.",
+                linkTitle: "AP Biology exam page"
+            },
+        ]
+    },
 ]
 
 export default data;
