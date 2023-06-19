@@ -141,8 +141,8 @@ const data = [
         ]
     },
     {
-        url: 'AP Biology',
-        title: 'APB',
+        url: 'apBio',
+        title: 'AP Biology',
         subtitle1:'AP Biology',
         paragraph1:'Study the core scientific principles, theories, and processes that govern living organisms and biological systems. You’ll do hands-on laboratory work to investigate natural phenomena.',
         subtitle2:'Tips for studying',
