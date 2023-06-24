@@ -162,8 +162,116 @@ const data = [
             {
                 title: "Overview of the AP Biology exam:",
                 desc: "The AP® Biology exam is a 3-hour exam. Students will have 90 minutes to complete 60 multiple-choice questions and another 90 minutes to complete 6 free-response questions.",
-                link: "The AP® Biology exam is a 3-hour exam. Students will have 90 minutes to complete 60 multiple-choice questions and another 90 minutes to complete 6 free-response questions.",
+                link: "https://apcentral.collegeboard.org/courses/ap-biology/exam",
                 linkTitle: "AP Biology exam page"
+            },
+        ]
+    },
+    {
+        url: 'apChem',
+        title: 'AP Chemistry',
+        subtitle1:'AP Chemistry',
+        paragraph1:'Learn about the fundamental concepts of chemistry including structure and states of matter, intermolecular forces, and reactions. You’ll do hands-on lab investigations and use chemical calculations to solve problems.',
+        subtitle2:'Tips for studying',
+        list1: [
+            'Ace the basics. Know the basic stuff forwards and backwards.',
+            'Learn by doing.',
+            "Don't read the textbook like you would a novel.",
+            'Do full practice exams.',
+            'Memorize it NOW. If you need to memorize something (mono and polyatomic ions, solubility rules) memorize it ASAP. '
+        ],
+        subtitle3:{
+            title: "To visit the AP Chemistry exam page on the College Board's website, click on this link:",
+            link: "https://apcentral.collegeboard.org/courses/ap-chemistry/exam",
+            linkTitle: "AP Chemistry exam page"
+        },
+        list2:[
+            {
+                title: "Overview of the AP Chemistry exam:",
+                desc: "The AP® Chemistry exam includes 60 multiple-choice questions and 7 free-response questions, including 3 long-answer questions and 4 short-answer questions. Each section represents 50% of your score.",
+                link: "https://apcentral.collegeboard.org/courses/ap-chemistry/exam",
+                linkTitle: "AP Chemistry exam page"
+            },
+        ]
+    },
+    {
+        url: 'apStat',
+        title: 'AP Statistics',
+        subtitle1:'AP Statistics',
+        paragraph1:'Learn about the major concepts and tools used for collecting, analyzing, and drawing conclusions from data. You’ll explore statistics through discussion and activities, and youll design surveys and experiments.',
+        subtitle2:'Tips for studying',
+        list1: [
+            'Clearly communicate your understanding',
+            'Always include context in your answers',
+            "Be precise in your language and vocabulary",
+            'Use appropriate notation',
+            'Do not rely on your calculator'
+        ],
+        subtitle3:{
+            title: "To visit the AP Statistics exam page on the College Board's website, click on this link:",
+            link: "https://apcentral.collegeboard.org/courses/ap-statistics/exam",
+            linkTitle: "AP Statistics exam page"
+        },
+        list2:[
+            {
+                title: "Overview of the AP Statistics exam:",
+                desc: "The AP Stats exam is three hours long and consists of two sections: a multiple-choice section and a free-response section. 1 multi-part question on Collecting Data, assessing Skill Category 1: Selecting Statistical Methods. 1 multi-part question on Exploring Data, assessing Skill Category 2: Data Analysis.",
+                link: "https://apcentral.collegeboard.org/courses/ap-statistics/exam",
+                linkTitle: "AP Statistics exam page"
+            },
+        ]
+    },
+    {
+        url: 'apCalcab',
+        title: 'AP Calculus AB ',
+        subtitle1:'AP Calc',
+        paragraph1:'Explore the concepts, methods, and applications of differential and integral calculus. You’ll work to understand the theoretical basis and solve problems by applying your knowledge and skills.',
+        subtitle2:'Tips for studying',
+        list1: [
+            'Keep an eye on your time. ',
+            'Show your work, even when youre using a calculator.',
+            "Try to solve each part of the question.",
+            'Be sure to fully answer the question being asked.',
+            'When asked to justify or to explain an answer, think about how that can be done.'
+        ],
+        subtitle3:{
+            title: "To visit the AP Calculus AB exam page on the College Board's website, click on this link:",
+            link: "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam",
+            linkTitle: "AP  exam page"
+        },
+        list2:[
+            {
+                title: "Overview of the AP Calculus AB exam:",
+                desc: "AP Calculus AB exam will be split equally between two sections: multiple-choice and free-response questions. Each section is worth 50 percent of the exam score. You will have 1 hour, 45 minutes to answer 45 multiple-choice questions and 1 hour, 30 minutes to answer 6 free-response questions.",
+                link: "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam",
+                linkTitle: "AP  exam page"
+            },
+        ]
+    },
+    {
+        url: 'apCalcbc',
+        title: 'AP Calculus BC ',
+        subtitle1:'AP Calc',
+        paragraph1:'',
+        subtitle2:'Tips for studying',
+        list1: [
+            '',
+            '',
+            "",
+            '',
+            ''
+        ],
+        subtitle3:{
+            title: "To visit the AP Calculus AB exam page on the College Board's website, click on this link:",
+            link: "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam",
+            linkTitle: "AP  exam page"
+        },
+        list2:[
+            {
+                title: "Overview of the AP Calculus AB exam:",
+                desc: "AP Calculus AB exam will be split equally between two sections: multiple-choice and free-response questions. Each section is worth 50 percent of the exam score. You will have 1 hour, 45 minutes to answer 45 multiple-choice questions and 1 hour, 30 minutes to answer 6 free-response questions.",
+                link: "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam",
+                linkTitle: "AP  exam page"
             },
         ]
     },

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './header.scss';
 import data from '../../data';
+import { Link } from 'react-router-dom';
 
 const Header=()=>{
 
@@ -9,7 +10,7 @@ const Header=()=>{
     let name = 'Davo'
 
     const search=(e)=>{
-        console.log(e.target.value)
+        setValue(e.target.value);
     }
 
     return(
@@ -30,11 +31,20 @@ const Header=()=>{
                     <input type='text' className='search' onChange={search}/>
                     <div className='searchIcon'></div>
                 </div>
-                <div className='resultBoxCover'>
+                <div className='resultBoxCover' style={{height: value.length === 0 ? 0 : '200px'}}>
                     <div className='resultBox'>
-                        {data.map((item)=>{
+                        {data
+                        .filter((item)=>{
+                            if(value === ''){
+                                return
+                            }
+                            return item.title.toLowerCase().includes(value.toLowerCase())
+                        })
+                        .map((item)=>{
                             return (
-                                <div>{item.title}</div>
+                                <Link to={item.url}>
+                                    <div>{item.title}</div>
+                                </Link>
                             )
                         })}
                     </div>
