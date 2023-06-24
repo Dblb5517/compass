@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/compass/static/css/main.08f6ad41.css",
-    "main.js": "/compass/static/js/main.0ab4f4c2.js",
+    "main.css": "/compass/static/css/main.24014b9d.css",
+    "main.js": "/compass/static/js/main.a2a9f626.js",
     "static/js/787.e263e4fb.chunk.js": "/compass/static/js/787.e263e4fb.chunk.js",
     "static/media/Hotpot.png": "/compass/static/media/Hotpot.883662f3bb34f1cb2be9.png",
     "index.html": "/compass/index.html",
-    "main.08f6ad41.css.map": "/compass/static/css/main.08f6ad41.css.map",
-    "main.0ab4f4c2.js.map": "/compass/static/js/main.0ab4f4c2.js.map",
+    "main.24014b9d.css.map": "/compass/static/css/main.24014b9d.css.map",
+    "main.a2a9f626.js.map": "/compass/static/js/main.a2a9f626.js.map",
     "787.e263e4fb.chunk.js.map": "/compass/static/js/787.e263e4fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08f6ad41.css",
-    "static/js/main.0ab4f4c2.js"
+    "static/css/main.24014b9d.css",
+    "static/js/main.a2a9f626.js"
   ]
 }
