@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/compass/static/css/main.1777031e.css",
-    "main.js": "/compass/static/js/main.d756acdb.js",
+    "main.js": "/compass/static/js/main.c7a27aac.js",
     "static/js/787.e263e4fb.chunk.js": "/compass/static/js/787.e263e4fb.chunk.js",
     "static/media/spinning_compass.gif": "/compass/static/media/spinning_compass.ffc1ddf61d289190cf8b.gif",
     "static/media/faq.png": "/compass/static/media/faq.9852ecfa2681dd0ac4f3.png",
     "index.html": "/compass/index.html",
     "main.1777031e.css.map": "/compass/static/css/main.1777031e.css.map",
-    "main.d756acdb.js.map": "/compass/static/js/main.d756acdb.js.map",
+    "main.c7a27aac.js.map": "/compass/static/js/main.c7a27aac.js.map",
     "787.e263e4fb.chunk.js.map": "/compass/static/js/787.e263e4fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1777031e.css",
-    "static/js/main.d756acdb.js"
+    "static/js/main.c7a27aac.js"
   ]
 }
