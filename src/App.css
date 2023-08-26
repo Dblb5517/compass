@@ -32,15 +32,15 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px #212e52; 
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: gray; 
+  background: #212e52; 
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: darkGray; 
+  background: #212e5294; 
 }
 
 @keyframes App-logo-spin {

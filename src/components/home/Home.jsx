@@ -1,19 +1,27 @@
 import './home.scss';
 import Info from '../info/Info';
 import data from '../../data';
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
+import Header from '../header/Header';
+import FrequentlyAskedQuestions from '../frequentlyAskedQuestions/FrequentlyAskedQuestions';
+
 
 const Home = () => {
     const param = useParams();
-    console.log(param.url,data[0].url);
+    
     return(
         <div>
-            {param == {} ? 
-            <span>barev</span>
+            <Header />
+            {
+            param.url === "faq" ?
+            <FrequentlyAskedQuestions />
+            :
+            !param.url ? 
+            <Info data={data[0]}/>
             :
             <div>
             {data.filter((item)=>{
-                return item.url == param.url;
+                return item.url === param.url;
             })
             .map((item,i)=>{
                 return <Info key={i} data={item}/>
@@ -21,6 +29,9 @@ const Home = () => {
             }
             </div>
             }
+            <Link to="/faq">
+                <div className='faqLogo'></div>
+            </Link>
         </div>
     )
 }

@@ -28,8 +28,8 @@ const Header=()=>{
             </div>
             <div className="searchBar">
                 <div className='searchBox'>
-                    <input type='text' className='search' onChange={search}/>
-                    <div className='searchIcon'></div>
+                    <input type='search' className='search' onChange={search} placeholder='Search...'/>
+                    <div className='searchIconBack'><div className='searchIcon'></div></div>
                 </div>
                 <div className='resultBoxCover' style={{height: value.length === 0 ? 0 : '200px'}}>
                     <div className='resultBox'>
@@ -42,7 +42,7 @@ const Header=()=>{
                         })
                         .map((item)=>{
                             return (
-                                <Link to={item.url}>
+                                <Link to={`/${item.url}`}>
                                     <div>{item.title}</div>
                                 </Link>
                             )

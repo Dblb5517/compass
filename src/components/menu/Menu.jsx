@@ -6,7 +6,7 @@ const Menu=()=>{
         <div className='menu'>
          <div className="menuStyle">
             <div className="menuTitle">
-                <span> Menu </span>
+                
             </div>
             <div className='menuOptions'>
                 <span>

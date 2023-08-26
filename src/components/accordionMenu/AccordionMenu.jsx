@@ -56,7 +56,7 @@ const AccordionMenu = () => {
         { title: 'AP Calculus BC', url: '/apCalcbc' },
         { title: 'AP Chinese Language and Culture', url: '/apChinese' },
         { title: 'AP Spanish Language and Culture', url: '/apSpanishlang' },
-        { title: 'AP Spanish Literature', url: 'apSpanishlit' },
+        { title: 'AP Spanish Literature', url: '/apSpanishlit' },
         { title: 'AP Comparative Government and Politics', url: '/apComparative' },
         { title: 'AP French Language and Culture ', url: '/apFrench' },
         { title: 'AP Microeconomics', url: '/apMicro' },

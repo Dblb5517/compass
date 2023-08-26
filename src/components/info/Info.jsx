@@ -22,7 +22,7 @@ const Info = ({data,key}) => {
                     return(
                         <li>{listItem.title}
                             <p>{listItem.desc}</p>
-                            <p>{listItem.linkTitle} 
+                            <p>{listItem.linkTitle}<br/> 
                                 <a href={listItem.link} target='_blank' rel="noreferrer">{listItem.link}</a>
                             </p>
                         </li>
